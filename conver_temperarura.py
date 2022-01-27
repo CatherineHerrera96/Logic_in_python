@@ -1,5 +1,5 @@
 """
-defina funciones para co grados en las diferentes escalas 
+defina funciones para convertir grados en las diferentes escalas 
 
 
 @CatherineH
