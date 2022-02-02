@@ -1,8 +1,11 @@
 """
 Una agencia de viajes necesita informar a sus clientes la hora de llegada de sus vuelos. Se conoce la hora de partida del vuelo (en horas, minutos y segundos) y la duración del vuelo (en horas, minutos y segundos).
 Cree una función que retorne la hora de llegada del vuelo en una cadena con el formato “HH:mm:ss” donde HH es la hora, mm los minutos y ss los segundos de la hora de llegada del vuelo. 
-La hora está dada en formato de 24 horas. Si alguno de los 3 números de la respuesta es menor a 10, sólo se necesita un dígito ('7' en lugar de '07').
+La hora está dada en formato de 24 horas. Si alguno de los 3 números de la respuesta es menor a 10,sólo se necesita un dígito ('7' en lugar de '07').
 
+A travel agency needs to inform its customers of the arrival time of their flights. The departure time of the flight (in hours, minutes and seconds) and the duration of the flight (in hours, minutes and seconds) are known.
+Create a function that returns the arrival time of the flight in a string with the format "HH:mm:ss" where HH is the time, mm the minutes and ss the seconds of the flight arrival time.
+The time is given in 24-hour format. If any of the 3 numbers in the answer is less than 10, only one digit is needed ('7' instead of '07').
 @CatherineHerrera96
 """
 
@@ -29,7 +32,6 @@ duracion_horas = int(input("ingrese número de horas que dura el vuelo(): "))
 duracion_minutos = int(input("ingrese número de minutos (adicionales al numero de horas) que dura el vuelo(): ")) 
 duracion_segundos = int(input("ingrese número de segundos (adicionales al numero de horas y minutos) que dura el vuelo(): ")) 
 
-#tiempo_llegada = calcular_tiempo_llegada(hora_salida, duracion_horas, minuto_salida, duracion_minutos, segundo_salida, duracion_segundos)
 hora = Calcular_hora_llegada (hora_salida, duracion_horas)
 minuto = Calcular_minuto_llegada (minuto_salida, duracion_minutos)
 segundo = Calcular_segundo_llegada (segundo_salida, duracion_segundos)
