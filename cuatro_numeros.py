@@ -1,5 +1,6 @@
 """
 Crea una función que reciba cuatro numeros entrero y retorne el mayor de estos. Si hay dos o mas iguales y mayores, retornara cuanquiera de estos.
+Create a feature that receives four entrero numbers and returns the largest of these. If there are two or more equal and larger, return how many of these.
 
 @CatherineHerrera96
 """
